@@ -1,0 +1,620 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rale;
+    line-height: 1.8;
+  }
+  @font-face {
+    font-family: Rale;
+    src: url(../font/Raleway/Raleway-VariableFont_wght.ttf);
+  }
+  .menu{
+
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .menu-left{
+    padding-top: 16px;
+  }
+  .menu-right{
+    padding-top: 16px;
+  }
+  .menu a:hover{
+    background-color: #ccc;
+  }
+  .bar{
+    
+    padding-top: 16px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 16px;
+  }
+  a:hover{
+    color: black;
+  }
+ 
+  /* /////////////////////hết menu///////////////////////// */
+  .offcanvas-header {
+    width: 200px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: unset;
+    background: black;
+  }
+  .offcanvas-start {
+    background: black;
+    width: 200px;
+    height: 100%;
+  }
+  .text-reset {
+    background: black;
+    color: white !important;
+    border: none;
+    padding: 16px;
+    text-align: start;
+  }
+  
+  .text-reset:hover {
+    background: gray;
+  }
+  .offcanvas-header {
+    padding: 0;
+  }
+  
+  nav a:hover {
+    background: gray;
+  }
+  .offcanvas-header a {
+    width: 100%;
+    color: white;
+  }
+  .bar {
+    display: none;
+  }
+  /* /////////////////hết respon///////////////////// */
+  .home{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .home img{
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    background-position: center;
+  }
+  .home-content{
+ padding: 48px;
+ width: 939px;
+ height: 373px;
+ position: absolute;
+ top: 50%;
+ left:0%;
+ transform: translate(0,-50%);
+  }
+  .home-content p{
+ margin:  15px 0;
+  }
+  .home-content  span{
+    color: white;
+
+  }
+   .home-content-desktop {
+    font-size: 64px;
+  }
+   .home-content-phone {
+    display: none;
+  }  
+  .learn{
+ color: black;
+ background-color: #ccc;
+  }
+  .learn:hover{
+    background-color: #f1f1f1;
+  }
+  .icon{
+    
+    margin: 0 8px;
+    
+    position: absolute;
+    bottom: 40px;
+    left:  48px;
+    color: white;
+    opacity: 0.6;
+  }
+  .icon i:hover {
+    opacity: 0.4;
+  }
+  /* <!-- //////////////////////////////////////xong headers//////////////////////////////// -->
+   */
+   .about{
+ text-align: center;
+ padding: 128px 16px;
+   }
+   .about p{
+     margin: 18px 0;
+   }
+   .about h3 {
+     margin: 10px;
+   }
+   .about-content {
+    display: flex;
+  }
+  .about-data {
+    width: 24.9999%;
+    text-align: center;
+    padding: 0 8px;
+  }
+  .about-data p{
+    display: block;
+  }
+  .about-icon {
+    font-size: 64px;
+  }
+  /* /////////////////////xong phần about////////////////// */
+  .design{
+    padding: 0px 8px;
+    display: flex;
+    padding: 128px 16px;
+    background: #f1f1f1;
+  }
+  .design-left {
+    padding: 0px 8px;
+    width: 49.999%;
+  }
+  .design-left h3 {
+    margin: 10px 0px;
+    font-size: 24px;
+  }
+  .design-left p {
+    margin: 15px 0px;
+    font-size: 15px;
+  }
+  .design-left a {
+    background: black;
+    color: white;
+  }
+  .design-right {
+    width: 49.9999%;
+  }
+  .design-right img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .design-left p a:hover {
+    background: #ccc;
+    color: #000;
+  }
+  /* /////////////XONG DESIGN////////////////////// */
+  .team {
+    text-align: center;
+    padding: 128px 16px;
+  }
+  .team-content {
+    display: flex;
+    margin-top: 64px;
+  }
+  .people1 {
+    width: 49.9999%;
+    display: flex;
+  }
+  /* .people2 {
+    width: 49.9999%;
+    display: flex;
+  } */
+  .people {
+    width: 49.9999%;
+    padding: 0px 8px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.people p {
+  padding: 0.15px 16px;
+}
+.people p button:hover {
+  background: #ccc;
+}
+.people h3 {
+  padding: 0.15px 16px;
+  margin: 10px 0px;
+}
+.people img {
+  width: 100%;
+}
+.people h3 {
+  margin: 10px 0px;
+}
+.people p {
+  margin: 15px 0px;
+}
+.people-contact{
+  width: 100%;
+  border: none;
+  padding: 8px 16px;
+  background: #f1f1f1;
+}
+.job{
+  opacity: 0.6;
+}
+/* ///////////////xong contact////////////////////// */
+.comment {
+  padding: 64px 16px;
+  background: #616161;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.comment div span {
+  font-size: 36px;
+}
+.comment div {
+  text-align: center;
+  color: #f1f1f1;
+  width: 24.999%;
+}
+/* ////////////////xong coment////////////////////////// */
+.work {
+  padding: 128px 16px;
+  text-align: center;
+}
+.work h3 {
+  margin: 10px 0px;
+}
+.work-img1 {
+  display: flex;
+  width: 49.999%;
+}
+.work-img1 div {
+  padding: 0 8px;
+  width: 49.999%;
+}
+.work-img1 div img {
+  width: 100%;
+}
+.work-img {
+  display: flex;
+  width: 100%;
+  padding: 8px 0px;
+}
+.work-img1 div:hover {
+  opacity: 0.8;
+}
+/* ////////////////////// xong work///////////////////////////// */
+.our-skill {
+  padding: 64px 16px;
+  background: #f1f1f1;
+}
+.our-skill-content {
+  display: flex;
+  padding: 0 8px;
+  width: 100%;
+}
+.skill-left {
+  width: 49.9999%;
+  padding: 0px 8px;
+}
+.skill-left h3 {
+  margin: 10px 0px;
+}
+.skill-left p {
+  margin: 15px 0px;
+}
+.skill-right {
+  width: 49.9999%;
+}
+.skill-right p {
+  margin: 15px 0px;
+}
+.pt {
+  width: 100%;
+  height: 27.3px;
+  background: #9e9e9e;
+}
+.pt90 {
+  text-align: center;
+  color: white;
+  width: 90%;
+  height: 27.3px;
+  background: #616161;
+}
+.pt85 {
+  text-align: center;
+  color: white;
+  width: 85%;
+  height: 27.3px;
+  background: #616161;
+}
+.pt75 {
+  text-align: center;
+  color: white;
+  width: 75%;
+  height: 27.3px;
+  background: #616161;
+}
+/* ///////////////////xong our skil////////////////////////// */
+.pricing {
+  background: #616161;
+  text-align: center;
+  padding: 128px 16px;
+  color: white;
+}
+.pricing-content {
+  width: 100%;
+  display: flex;
+  margin-top: 64px;
+}
+.pricing h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+.pricing p {
+  margin: 15px 0px;
+  font-size: 18px;
+}
+.version {
+  width: calc(100%/3);
+  display: flex;
+  padding: 0px 8px;
+}
+.basic {
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
+.basic-header {
+  background: black !important;
+  color: white !important;
+  padding: 32px 16px !important;
+  font-size: 24px;
+
+}
+#un {
+  margin: 16px 0;
+}
+.pro-header {
+  background: #f44336 !important;
+  color: white !important;
+  padding: 48px 16px !important ;
+  font-size: 24px;
+}
+.basic li {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  background: white;
+  color: #000;
+}
+
+li button {
+  padding: 12px 24px;
+  background: #000;
+  border: none;
+  color: white;
+}
+.libuton button:hover {
+  background: #ccc;
+  color: #000;
+}
+/* //////////////////xong  pricing////////////////////// */
+.contact {
+  padding: 128px 16px;
+  background: #f1f1f1;
+  text-align: center;
+}
+.contact h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+.contact p {
+  padding: 15px 0;
+  font-size: 18px;
+}
+.contact-content {
+  text-align: left;
+  width: 100%;
+}
+.contact-content p {
+  font-size: 15px;
+  margin: 15px 0;
+}
+.contact-content p i {
+  margin-right: 16px;
+}
+.contact-content span{
+  margin:  0 7px 0
+}
+.contact-content img {
+  width: 100%;
+  margin-top: 48px;
+}
+.address p {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+}
+.address p input {
+  width: 100%;
+  height: 45px;
+  padding: 8px;
+}
+.address p button {
+  padding: 8px 16px;
+  color: white;
+  background: #000;
+  border: none;
+}
+.address p button:hover {
+  background: #ccc;
+  color: #000;
+}
+/* ///////////////xong contact/////////////////// */
+footer {
+  background: #000;
+  padding: 64px 0;
+  text-align: center;
+}
+footer a {
+  color: #000;
+  font-size: 15px;
+  background: #f1f1f1;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+footer a:hover {
+  background: #ccc;
+}
+.icon-footer i:hover {
+  opacity: 0.75;
+}
+.title {
+  color: white;
+}
+.title a {
+  background: #000 !important;
+  border: none;
+  color: white;
+  text-decoration: underline;
+}
+.title a:hover {
+  color: green;
+}
+.icon-footer {
+  margin: 16px 0;
+  color: white;
+  font-size: 24px;
+}
+/* ////////////////////////hết foooter////////////////////// */
+@media screen and (max-width: 1000px) {
+  .team-content , .work-img{
+    flex-direction: column;
+  }
+  .people1
+   {
+    width: 100%;
+  }
+ 
+  .work-img1 {
+    width: 100%;
+  }
+  .work-img1 div {
+    width: 100%;
+  }
+}
+/* ///////////////////////////////////////////////////// */
+/* @media screen and (max-width: 600px){
+  .menu-right,
+  .home-content-desktop {
+    display: none;
+  }
+  .bar,
+  .home-content-phone {
+    display: block;
+    font-size: 45px;
+  }
+  .about-content,.design, 
+
+  .people1,  .people2,   .comment,
+
+  .work-img1,.our-skill-content,
+
+  .pricing-content
+   {
+    flex-direction: column;
+  }
+
+  .about-data, .design-left, .design-right, 
+  .people,.comment div, .skill-left,
+  .skill-right,.version {
+    width: 100%;
+  }
+  
+} */
+@media screen and (max-width: 600px) {
+  .menu{
+    width: 100%;
+   
+  }
+  .about-data {
+    width: 100%;
+  }
+  .design-left,
+  .design-right {
+    width: 100%;
+  }
+  .people {
+    width: 100%;
+  }
+  .comment div {
+    width: 100%;
+  }
+  .skill-left,
+  .skill-right {
+    width: 100%;
+  }
+  .version {
+    width: 100%;
+  }
+  /* ///////////xét with/////////////////////// */
+  .about-content {
+    flex-direction: column;
+  }
+  .design {
+    flex-direction: column;
+  }
+  
+  
+  .people1 {
+    flex-direction: column;
+  }
+ 
+  .comment {
+    flex-direction: column;
+  }
+ 
+  .work-img1 {
+    flex-direction: column;
+  }
+  .our-skill-content {
+    flex-direction: column;
+  }
+ 
+  .pricing-content {
+    flex-direction: column;
+  }
+  /* ////////////////xét colum/////////////////////////// */
+  .menu-right,
+  .home-content-desktop {
+    display: none;
+  }
+  .bar,
+  .home-content-phone {
+    display: block;
+  }
+  .home img{
+    width: 100%;
+    position: relative;
+    height: 600px;
+  }
+  .home-content-phone{
+    font-size: 40px;
+   
+  }
+  
+  .icon{
+    bottom: 20px;
+  }
+}

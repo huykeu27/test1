@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./kt1.css" />
+    <title>kiểm tra lần 1</title>
+</head>
+<body>
+  <div class="menu">
+    <div class="menu-left">
+      <a href="#home" style="letter-spacing: 4px">LOGO</a>
+    </div>
+    <div class="menu-right">
+      <a href="#about">ABOUT</a>
+      <a href="#team"> <i class="fa fa-user"></i>TEAM </a>
+      <a href="#work"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <div class="bar">
+      <a
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+        ><i class="fa fa-bars"></i
+      ></a>
+    </div>
+  </div>
+  <div
+    class="offcanvas offcanvas-start"
+    tabindex="-1"
+    id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel"
+  >
+    <button
+      type="button"
+      class="text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    >
+      Close <i class="fa-solid fa-xmark"></i>
+    </button>
+    <nav class="offcanvas-header">
+      <a href="#about">ABOUT</a>
+      <a href="#team"> <i class="fa fa-user"></i>TEAM </a>
+      <a href="#work"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+    </nav>
+  </div>
+    <!-- /////////////////////////butto bar responsive///////////////////////////////////////// -->
+    <header id="home">
+        <div class="home">
+            <img src="https://www.w3schools.com/w3images/mac.jpg" alt="" />
+            <div class="home-content">
+             <span class="home-content-desktop">Start something that matters</span>
+              <br />
+              <span class="home-content-phone">Start something that  <div>matters</div></span>
+              <br /> 
+              <span style="font-size: 20px" class="home-content-desktop"
+                >Stop wasting valuable time with projects that just isn't you.</span
+              >
+              <span style="font-size: 20px" class="home-content-phone"
+                >Stop wasting valuable time with projects <div>that just isn't you.</div></span
+              >
+
+              <br />
+              <p><a href="#about" class="learn">Learn more and start today</a></p>
+              
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-facebook-square"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-snapchat-square"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            
+          </div>
+
+    </header>
+  
+    <!-- //////////////////////////////////////xong headers//////////////////////////////// -->
+    <div class="about" id="about">
+        <h3>ABOUT THE COMPANY</h3>
+        <p>Key features of our company</p>
+        <div class="about-content">
+          <div class="about-data">
+            <i class="fa fa-desktop about-icon"></i>
+            <p>Responsive</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+          <div class="about-data">
+            <i class="fa fa-heart about-icon"></i>
+            <p>Passion</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+          <div class="about-data">
+            <i class="fa-solid fa-gem about-icon"></i>
+            <p>Design</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+          <div class="about-data">
+            <i class="fa fa-cog about-icon"></i>
+            <p>Support</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+        </div>
+      </div>
+   <!-- ////////////////////////////////xong phần about///////////////////////////////////// -->
+   <div class="design">
+    <div class="design-left">
+      <h3>We know design.</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore.
+      </p>
+      <p>
+        <a href="#work"> <i class="fa fa-th"></i> View Our Works</a>
+      </p>
+    </div>
+    <div class="design-right">
+      <img
+        src="https://www.w3schools.com/w3images/phone_buildings.jpg"
+        alt=""
+      />
+    </div>
+  </div>
+  <!-- ////////////////////////////////xong phần design///////////////////////////////////// -->
+  <div class="team" id="team">
+    <h3>THE TEAM</h3>
+    <p>The ones who runs this company</p>
+    <div class="team-content">
+
+      <div class="people1">
+        <div class="people">
+          <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" />
+          <h3>John Doe</h3>
+          <p class="job">CEO & Founder</p>
+          <p>
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <p>
+            <button class="people-contact">
+              <i class="fa fa-envelope"></i> Contact
+            </button>
+          </p>
+        </div>
+        <div class="people">
+          <img src="https://www.w3schools.com/w3images/team1.jpg" alt="" />
+          <h3>John Doe</h3>
+          <p class="job">Art Director</p>
+          <p>
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <p>
+            <button class="people-contact">
+              <i class="fa fa-envelope"></i> Contact
+            </button>
+          </p>
+        </div>
+      </div>
+
+      <div class="people1">
+        <div class="people">
+          <img src="https://www.w3schools.com/w3images/team3.jpg" alt="" />
+          <h3>John Doe</h3>
+          <p class="job">Web Designer</p>
+          <p>
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <p>
+            <button class="people-contact">
+              <i class="fa fa-envelope"></i> Contact
+            </button>
+          </p>
+        </div>
+        <div class="people">
+          <img src="https://www.w3schools.com/w3images/team4.jpg" alt="" />
+          <h3>John Doe</h3>
+          <p class="job">Designer</p>
+          <p>
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <p>
+            <button class="people-contact">
+              <i class="fa fa-envelope"></i> Contact
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ////////////////////////team//////////////////////////// -->
+<div class="comment">
+    <div>
+      <span>14+</span><br />
+      Partners
+    </div>
+    <div>
+      <span>55+</span><br />
+      Done
+    </div>
+    <div>
+      <span>89+</span><br />
+      Happy Clients
+    </div>
+    <div>
+      <span>150+</span><br />
+      Meetings
+    </div>
+  </div>
+  <!-- ///////////////////////work///////////////////////////////// -->
+<div class="work" id="work">
+    <h3>OUR WORK</h3>
+      <p>What we've done for people</p>
+      <div class="work-content">
+        <div class="work-img">
+          <div class="work-img1">
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_mic.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_phone.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="work-img1">
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_drone.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_sound.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+         <!-- ////////////////////////////////////////////////////// -->
+        <div class="work-img">
+          <div class="work-img1">
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_tablet.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_camera.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="work-img1">
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_typewriter.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://www.w3schools.com/w3images/tech_tableturner.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</div>
+<!-- ////////////////////xong phần work//////////////////////////////// -->
+<div class="our-skill">
+    <div class="our-skill-content">
+      <div class="skill-left">
+        <h3>Our Skills.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod <br />tempor incididunt ut labore et dolore.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod <br />tempor incididunt ut labore et dolore.
+        </p>
+      </div>
+      <div class="skill-right">
+        <p><i class="fa fa-camera"></i> Photography</p>
+        <div class="pt">
+          <div class="pt90">90%</div>
+        </div>
+        <p><i class="fa fa-desktop"></i> Web Design</p>
+        <div class="pt">
+          <div class="pt85">85%</div>
+        </div>
+        <p><i class="fa-solid fa-image"></i> Photoshop</p>
+        <div class="pt">
+          <div class="pt75">75%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ///////////////////////hết phần our/////////////////////////// -->
+<div class="pricing" id="pricing">
+
+        <h3>PRICING</h3>
+        <p>Choose a pricing plan that fits your needs.</p>
+        <div class="pricing-content">
+            <div class="version">
+              <ul class="basic" id="un">
+                <li class="basic-header">Basic</li>
+                <li><b>10GB</b> Storage</li>
+                <li><b>10</b> Emails</li>
+                <li><b>10</b> Domains</li>
+                <li><b>Endless</b> Support</li>
+                <li>
+                  <h2>$ 10</h2>
+                  <span style="opacity: 0.6">per month</span>
+                </li>
+                <li class="libuton">
+                  <button>Sign up</button>
+                </li>
+              </ul>
+            </div>
+            <div class="version">
+              <ul class="basic">
+                <li class="pro-header">Pro</li>
+                <li><b>25GB</b> Storage</li>
+                <li><b>25</b> Emails</li>
+                <li><b>25</b> Domains</li>
+                <li><b>Endless</b> Support</li>
+                <li>
+                  <h2>$ 25</h2>
+                  <span style="opacity: 0.6">per month</span>
+                </li>
+                <li class="libuton">
+                  <button>Sign up</button>
+                </li>
+              </ul>
+            </div>
+            <div class="version">
+              <ul class="basic" id="un">
+                <li class="basic-header">Premium</li>
+                <li><b>50GB</b> Storage</li>
+                <li><b>50</b> Emails</li>
+                <li><b>50</b> Domains</li>
+                <li><b>Endless</b> Support</li>
+                <li>
+                  <h2>$ 50</h2>
+                  <span style="opacity: 0.6">per month</span>
+                </li>
+                <li class="libuton">
+                  <button>Sign up</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+</div>
+<!-- //////////////////////////hết pricing////////////////////////////// -->
+<div class="contact" id="contact">
+    <h3>CONTACT</h3>
+    <p>Lets get in touch. Send us a message:</p>
+    <div class="contact-content">
+      <p><i class="fa fa-map-marker"></i><span>Chicago, US</span></p>
+      <p><i class="fa fa-phone"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope"></i> Email: mail@mail.com</p>
+      <form class="address">
+        <p><input type="text" placeholder="Name" required name="Name" /></p>
+        <p><input type="text" placeholder="Email" required name="Email" /></p>
+        <p>
+          <input type="text" placeholder="Subject" required name="Subject" />
+        </p>
+        <p>
+          <input type="text" placeholder="Message" required name="Message" />
+        </p>
+        <p>
+          <button type="submit">
+            <i class="fa fa-paper-plane"></i>SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <img src="https://www.w3schools.com/w3images/map.jpg" alt="" />
+    </div>
+  </div>
+  <!-- //////////////////////hết contact///////////////////////// -->
+  <footer>
+    <a href="#home"> <i class="fa fa-arrow-up"></i> To the top </a>
+    <div class="icon-footer">
+      <i class="fa-brands fa-facebook-square"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-snapchat-square"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+    <p class="title">Powered by<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS">W3.CSS</a></p>
+    </div>
+  </footer>
+   <!-- //////////////////////hết footer///////////////////////// -->
+   <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
